@@ -1,0 +1,116 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.github.debacodex.backdrop-mergeReleaseResources-32:/values-da/values-da.xml",
+            "map": [
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/04fea4c794691e7fb0e44f1a95b237da/transformed/foundation/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,159,249",
+                        "endColumns": "103,89,86",
+                        "endOffsets": "154,244,331"
+                    },
+                    "to": {
+                        "startLines": "2,31,32",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,2726,2816",
+                        "endColumns": "103,89,86",
+                        "endOffsets": "204,2811,2898"
+                    }
+                },
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/886e08b970876190d6277497ef0d0702/transformed/ui/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,293,373,468,567,649,726,815,904,986,1067,1151,1221,1312,1386,1458,1529,1607,1674",
+                        "endColumns": "95,91,79,94,98,81,76,88,88,81,80,83,69,90,73,71,70,77,66,119",
+                        "endOffsets": "196,288,368,463,562,644,721,810,899,981,1062,1146,1216,1307,1381,1453,1524,1602,1669,1789"
+                    },
+                    "to": {
+                        "startLines": "3,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "209,1032,1124,1204,1299,1398,1480,1557,1646,1735,1817,1898,1982,2052,2143,2217,2289,2461,2539,2606",
+                        "endColumns": "95,91,79,94,98,81,76,88,88,81,80,83,69,90,73,71,70,77,66,119",
+                        "endOffsets": "300,1119,1199,1294,1393,1475,1552,1641,1730,1812,1893,1977,2047,2138,2212,2284,2355,2534,2601,2721"
+                    }
+                },
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/82b162c84e9d12616861cb9ade1dcc30/transformed/core-1.16.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,350,448,555,664,782",
+                        "endColumns": "95,101,96,97,106,108,117,100",
+                        "endOffsets": "146,248,345,443,550,659,777,878"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,27",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "305,401,503,600,698,805,914,2360",
+                        "endColumns": "95,101,96,97,106,108,117,100",
+                        "endOffsets": "396,498,595,693,800,909,1027,2456"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.github.debacodex.backdrop-release-34:/values-da/values-da.xml",
+            "map": [
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/04fea4c794691e7fb0e44f1a95b237da/transformed/foundation/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,159,249",
+                        "endColumns": "103,89,86",
+                        "endOffsets": "154,244,331"
+                    },
+                    "to": {
+                        "startLines": "2,31,32",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,2726,2816",
+                        "endColumns": "103,89,86",
+                        "endOffsets": "204,2811,2898"
+                    }
+                },
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/886e08b970876190d6277497ef0d0702/transformed/ui/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,293,373,468,567,649,726,815,904,986,1067,1151,1221,1312,1386,1458,1529,1607,1674",
+                        "endColumns": "95,91,79,94,98,81,76,88,88,81,80,83,69,90,73,71,70,77,66,119",
+                        "endOffsets": "196,288,368,463,562,644,721,810,899,981,1062,1146,1216,1307,1381,1453,1524,1602,1669,1789"
+                    },
+                    "to": {
+                        "startLines": "3,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "209,1032,1124,1204,1299,1398,1480,1557,1646,1735,1817,1898,1982,2052,2143,2217,2289,2461,2539,2606",
+                        "endColumns": "95,91,79,94,98,81,76,88,88,81,80,83,69,90,73,71,70,77,66,119",
+                        "endOffsets": "300,1119,1199,1294,1393,1475,1552,1641,1730,1812,1893,1977,2047,2138,2212,2284,2355,2534,2601,2721"
+                    }
+                },
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/82b162c84e9d12616861cb9ade1dcc30/transformed/core-1.16.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,350,448,555,664,782",
+                        "endColumns": "95,101,96,97,106,108,117,100",
+                        "endOffsets": "146,248,345,443,550,659,777,878"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,27",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "305,401,503,600,698,805,914,2360",
+                        "endColumns": "95,101,96,97,106,108,117,100",
+                        "endOffsets": "396,498,595,693,800,909,1027,2456"
+                    }
+                }
+            ]
+        }
+    ]
+}

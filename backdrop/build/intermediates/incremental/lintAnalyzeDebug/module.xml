@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/backdrop"
+    name=":backdrop"
+    type="LIBRARY"
+    maven="AndroidLiquidGlass:backdrop:unspecified"
+    agpVersion="8.13.2"
+    buildFolder="build"
+    bootClassPath="/data/user/0/com.tom.rv2ide/files/home/android-sdk/platforms/android-36/android.jar:/data/user/0/com.tom.rv2ide/files/home/android-sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-36"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

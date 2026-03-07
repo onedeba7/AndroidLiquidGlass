@@ -1,32 +1,28 @@
 plugins {
-    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("com.vanniktech.maven.publish")
+    alias(libs.plugins.android.library)
 }
 
 android {
-    namespace = "com.kyant.backdrop"
-    compileSdk {
-        version = release(36)
-    }
-    buildToolsVersion = "36.1.0"
+    namespace = "com.github.debacodex.backdrop"
+    compileSdk = 36
 
     defaultConfig {
+       
         minSdk = 21
-        consumerProguardFiles("consumer-rules.pro")
+        targetSdk = 36
+      
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        }
-    }
     buildFeatures {
         compose = true
     }
-}
 
+    
+}
 kotlin {
     jvmToolchain(17)
     compilerOptions {
@@ -37,41 +33,9 @@ kotlin {
 }
 
 dependencies {
+    implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
-    implementation(libs.kyant.shapes)
-}
-
-mavenPublishing {
-    publishToMavenCentral()
-    signAllPublications()
-
-    coordinates("io.github.kyant0", "backdrop", "1.0.6")
-
-    pom {
-        name.set("Backdrop")
-        description.set("Jetpack Compose blur and Liquid Glass effects")
-        inceptionYear.set("2025")
-        url.set("https://github.com/Kyant0/AndroidLiquidGlass")
-        licenses {
-            license {
-                name.set("The Apache License, Version 2.0")
-                url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
-                distribution.set("repo")
-            }
-        }
-        developers {
-            developer {
-                id.set("Kyant0")
-                name.set("Kyant")
-                url.set("https://github.com/Kyant0")
-            }
-        }
-        scm {
-            url.set("https://github.com/Kyant0/AndroidLiquidGlass")
-            connection.set("scm:git:git://github.com/Kyant0/AndroidLiquidGlass.git")
-            developerConnection.set("scm:git:ssh://git@github.com/Kyant0/AndroidLiquidGlass.git")
-        }
-    }
+    implementation(libs.debacodex.shapes)
 }

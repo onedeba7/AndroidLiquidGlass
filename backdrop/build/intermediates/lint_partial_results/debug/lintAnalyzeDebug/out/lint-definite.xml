@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.2" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.library than 8.13.2 is available: 9.1.0">
+        <fix-replace
+            description="Replace with 9.1.0"
+            family="Update versions"
+            oldString="8.13.2"
+            replacement="9.1.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="15"
+            endOffset="25"/>
+        <map>
+            <entry
+                name="coordinate"
+                string="com.android.application"/>
+            <entry
+                name="revision"
+                string="9.1.0"/>
+        </map>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2026.02.00 is available: 2026.02.01">
+        <fix-replace
+            description="Change to 2026.02.01"
+            family="Update versions"
+            oldString="2026.02.00"
+            replacement="2026.02.01"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="8"
+            column="14"
+            startOffset="86"
+            endLine="8"
+            endColumn="26"
+            endOffset="98"/>
+    </incident>
+
+</incidents>
