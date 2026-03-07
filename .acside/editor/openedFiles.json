@@ -1,0 +1,50 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/gradle/libs.versions.toml",
+      "selection": {
+        "end": {
+          "column": 23,
+          "index": 68,
+          "line": 4
+        },
+        "start": {
+          "column": 23,
+          "index": 68,
+          "line": 4
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 36,
+          "index": 2010,
+          "line": 75
+        },
+        "start": {
+          "column": 36,
+          "index": 2010,
+          "line": 75
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/backdrop/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 32,
+          "index": 726,
+          "line": 37
+        },
+        "start": {
+          "column": 32,
+          "index": 726,
+          "line": 37
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/gradle/libs.versions.toml"
+}
