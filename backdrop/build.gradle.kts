@@ -108,7 +108,7 @@ publishing {
                 // GitHub Packages URL structure: 
                 // https://maven.pkg.github.com/OWNER/REPOSITORY
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/onedeba7/button")
+                url = uri("https://maven.pkg.github.com/onedeba7/AndroidLiquidGlass")
 
                 // Get credentials from environment variables for GitHub Actions
                 credentials {
