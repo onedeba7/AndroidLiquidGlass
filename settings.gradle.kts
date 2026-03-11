@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidLiquidGlass"
 
-include(":app")
+include(":catalog")
 include(":backdrop")
 
 
