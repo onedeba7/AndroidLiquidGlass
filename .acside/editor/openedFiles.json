@@ -1,50 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/gradle/libs.versions.toml",
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/settings.gradle.kts",
       "selection": {
         "end": {
-          "column": 23,
-          "index": 68,
-          "line": 4
+          "column": 8,
+          "index": 281,
+          "line": 13
         },
         "start": {
-          "column": 23,
-          "index": 68,
-          "line": 4
+          "column": 8,
+          "index": 281,
+          "line": 13
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/app/build.gradle.kts",
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/gradle.properties",
       "selection": {
         "end": {
-          "column": 36,
-          "index": 2010,
-          "line": 75
+          "column": 26,
+          "index": 458,
+          "line": 13
         },
         "start": {
-          "column": 36,
-          "index": 2010,
-          "line": 75
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/backdrop/build.gradle.kts",
-      "selection": {
-        "end": {
-          "column": 32,
-          "index": 726,
-          "line": 37
-        },
-        "start": {
-          "column": 32,
-          "index": 726,
-          "line": 37
+          "column": 26,
+          "index": 458,
+          "line": 13
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/gradle/libs.versions.toml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/AndroidLiquidGlass/gradle.properties"
 }
